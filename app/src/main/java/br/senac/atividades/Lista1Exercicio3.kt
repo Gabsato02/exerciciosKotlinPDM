@@ -4,7 +4,6 @@ import android.R
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ArrayAdapter
-import br.senac.atividades.databinding.ActivityLista1Exercicio2Binding
 import br.senac.atividades.databinding.ActivityLista1Exercicio3Binding
 
 class Lista1Exercicio3 : AppCompatActivity() {

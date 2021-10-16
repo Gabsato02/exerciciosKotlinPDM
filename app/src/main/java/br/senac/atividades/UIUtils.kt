@@ -1,6 +1,7 @@
 package br.senac.atividades
 
 import android.content.Context
+import android.widget.AdapterView
 import androidx.appcompat.app.AlertDialog
 
 fun alert(title: String, message: String, context: Context) {
