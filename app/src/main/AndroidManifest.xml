@@ -30,6 +30,14 @@
             android:exported="true"
             android:parentActivityName=".MainActivity" />
         <activity
+            android:name=".Lista1Exercicio5"
+            android:exported="true"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Lista1Exercicio4"
+            android:exported="true"
+            android:parentActivityName=".MainActivity" />
+        <activity
             android:name=".Lista1Exercicio3"
             android:exported="true"
             android:parentActivityName=".MainActivity" />
