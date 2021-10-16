@@ -223,5 +223,22 @@
                 app:cornerRadius="0dp" />
 
         </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/l1ex5Button0"
+                android:layout_width="30dp"
+                android:layout_height="72dp"
+                android:layout_weight="1"
+                android:text="0"
+                android:textSize="16sp"
+                app:cornerRadius="0dp" />
+        </LinearLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
