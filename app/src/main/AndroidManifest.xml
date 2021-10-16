@@ -10,14 +10,37 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Atividades">
         <activity
+            android:name=".Lista1Exercicio7Detalhe"
+            android:exported="true"
+            android:parentActivityName=".Lista1Exercicio7" />
+        <activity
+            android:name=".Lista1Exercicio7"
+            android:exported="true"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Lista1Exercicio6Image"
+            android:exported="true"
+            android:parentActivityName=".Lista1Exercicio6" />
+        <activity
+            android:name=".Lista1Exercicio8"
+            android:exported="true"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Lista1Exercicio6"
+            android:exported="true"
+            android:parentActivityName=".MainActivity" />
+        <activity
             android:name=".Lista1Exercicio3"
-            android:exported="true" />
+            android:exported="true"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".Lista1Exercicio2"
-            android:exported="true" />
+            android:exported="true"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".Lista1Exercicio1"
-            android:exported="true" />
+            android:exported="true"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
