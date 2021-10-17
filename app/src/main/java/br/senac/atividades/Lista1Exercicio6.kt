@@ -13,14 +13,17 @@ class Lista1Exercicio6 : AppCompatActivity() {
         binding = ActivityLista1Exercicio6Binding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.imageView1.setOnClickListener {
-            showImage(R.drawable.maca)
+        binding.imageGallery1.setOnClickListener {
+            showImage(R.drawable.gulian_qorgyle)
         }
-        binding.imageView2.setOnClickListener {
-            showImage(R.drawable.pera)
+        binding.imageGallery2.setOnClickListener {
+            showImage(R.drawable.kalathyel_iliathor)
         }
-        binding.imageView3.setOnClickListener {
-            showImage(R.drawable.uva)
+        binding.imageGallery3.setOnClickListener {
+            showImage(R.drawable.denis_zhbankov_2)
+        }
+        binding.imageGallery4.setOnClickListener {
+            showImage(R.drawable.estrid_branca)
         }
     }
 

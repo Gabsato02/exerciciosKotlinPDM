@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,55 +7,90 @@
     android:layout_margin="32dp"
     android:isScrollContainer="true"
     android:scrollbarAlwaysDrawVerticalTrack="true"
-    tools:context=".Lista1Exercicio6">
+    tools:context=".Lista1Exercicio6" >
 
-    <TableRow
+    <TableLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content"
+        android:isScrollContainer="true"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        tools:context=".Lista1Exercicio6">
 
-        <TextView
-            android:id="@+id/editTitle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="16dp"
-            android:text="Lista1 - Ex 6"
-            android:textSize="20sp" />
-    </TableRow>
-
-    <TableRow
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center_horizontal">
-
-        <ImageView
-            android:id="@+id/imageView1"
+        <TableRow
             android:layout_width="match_parent"
-            android:layout_height="140dp"
-            app:srcCompat="@drawable/maca" />
-    </TableRow>
+            android:layout_height="match_parent">
 
-    <TableRow
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center_horizontal">
+            <TextView
+                android:id="@+id/editTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="Lista1 - Ex 6"
+                android:textSize="20sp" />
+        </TableRow>
 
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="wrap_content"
-            android:layout_height="140dp"
-            app:srcCompat="@drawable/pera" />
-    </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center_horizontal">
 
-    <TableRow
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center_horizontal">
+            <ImageView
+                android:id="@+id/imageGallery1"
+                android:layout_width="wrap_content"
+                android:layout_height="400dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/gulian_qorgyle" />
+        </TableRow>
 
-        <ImageView
-            android:id="@+id/imageView3"
-            android:layout_width="wrap_content"
-            android:layout_height="140dp"
-            app:srcCompat="@drawable/uva" />
-    </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center_horizontal">
 
-</TableLayout>
+            <ImageView
+                android:id="@+id/imageGallery2"
+                android:layout_width="wrap_content"
+                android:layout_height="400dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/kalathyel_iliathor" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:id="@+id/imageGallery3"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/denis_zhbankov_2" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp">
+
+            <ImageView
+                android:id="@+id/imageGallery4"
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/estrid_branca" />
+        </TableRow>
+
+    </TableLayout>
+</ScrollView>

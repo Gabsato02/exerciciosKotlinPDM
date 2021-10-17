@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Atividades">
         <activity
+            android:name=".Lista2Exercicio1e3"
+            android:exported="true"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Lista1Exercicio9Detalhe"
+            android:exported="true"
+            android:parentActivityName=".Lista1Exercicio9" />
+        <activity
+            android:name=".Lista1Exercicio9"
+            android:exported="true"
+            android:parentActivityName=".MainActivity" />
+        <activity
             android:name=".Lista1Exercicio7Detalhe"
             android:exported="true"
             android:parentActivityName=".Lista1Exercicio7" />
