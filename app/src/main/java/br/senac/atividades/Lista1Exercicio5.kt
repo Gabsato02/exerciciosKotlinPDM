@@ -3,6 +3,7 @@ package br.senac.atividades
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import br.senac.atividades.databinding.ActivityLista1Exercicio5Binding
+import com.fathzer.soft.javaluator.DoubleEvaluator
 
 class Lista1Exercicio5 : AppCompatActivity() {
     private lateinit var binding: ActivityLista1Exercicio5Binding
@@ -15,7 +16,7 @@ class Lista1Exercicio5 : AppCompatActivity() {
         this.handleButtonsBinding()
     }
 
-    private fun validateSignals(signal: String): Boolean {
+    private fun validateSignals(): Boolean {
         if (expression.isNullOrEmpty()) return false
         return when(expression.last().toString()) {
             "+" -> false
@@ -28,7 +29,7 @@ class Lista1Exercicio5 : AppCompatActivity() {
     }
 
     private fun updateExpression() {
-        binding.l1ex5textOperation.text = expression;
+        binding.l1ex5textOperation.text = expression
     }
 
     private fun deleteFromExpression() {
@@ -36,7 +37,11 @@ class Lista1Exercicio5 : AppCompatActivity() {
         updateExpression()
     }
 
-    private fun validateExpression() {}
+    private fun validateExpression() {
+        if (validateSignals()) {
+            binding.l1ex5TextResults.text = DoubleEvaluator().evaluate(expression).toString()
+        }
+    }
 
     private fun handleButtonsBinding() {
         binding.l1ex5Button1.setOnClickListener {
@@ -80,31 +85,29 @@ class Lista1Exercicio5 : AppCompatActivity() {
             updateExpression()
         }
         binding.l1ex5ButtonDot.setOnClickListener {
-            if (validateSignals(".")) {
+            if (validateSignals()) {
                 expression += "."
                 updateExpression()
             }
         }
         binding.l1ex5ButtonSum.setOnClickListener {
-            if (validateSignals("+")) {
+            if (validateSignals()) {
                 expression += "+"
                 updateExpression()
             }
         }
         binding.l1ex5ButtonSub.setOnClickListener {
-            if (validateSignals("-")) {
-                expression += "-"
-                updateExpression()
-            }
+            expression += "-"
+            updateExpression()
         }
         binding.l1ex5ButtonMult.setOnClickListener {
-            if (validateSignals("*")) {
+            if (validateSignals()) {
                 expression += "*"
                 updateExpression()
             }
         }
         binding.l1ex5ButtonDiv.setOnClickListener {
-            if (validateSignals("/")) {
+            if (validateSignals()) {
                 expression += "/"
                 updateExpression()
             }
