@@ -34,6 +34,7 @@ class Lista1Exercicio5 : AppCompatActivity() {
 
     private fun deleteFromExpression() {
         expression = expression.dropLast(1)
+        binding.l1ex5TextResults.text = ""
         updateExpression()
     }
 
