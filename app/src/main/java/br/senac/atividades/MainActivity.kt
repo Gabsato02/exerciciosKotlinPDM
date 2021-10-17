@@ -38,5 +38,30 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, Lista1Exercicio5::class.java)
             startActivity(intent)
         }
+
+        binding.btnList1Activity6.setOnClickListener {
+            val intent = Intent(this, Lista1Exercicio6::class.java)
+            startActivity(intent)
+        }
+
+        binding.btnList1Activity7.setOnClickListener {
+            val intent = Intent(this, Lista1Exercicio7::class.java)
+            startActivity(intent)
+        }
+
+        binding.btnList1Activity8.setOnClickListener {
+            val intent = Intent(this, Lista1Exercicio8::class.java)
+            startActivity(intent)
+        }
+
+        binding.btnList1Activity9.setOnClickListener {
+            val intent = Intent(this, Lista1Exercicio9::class.java)
+            startActivity(intent)
+        }
+
+        binding.btnList2Activity1e3.setOnClickListener {
+            val intent = Intent(this, Lista2Exercicio1e3::class.java)
+            startActivity(intent)
+        }
     }
 }
