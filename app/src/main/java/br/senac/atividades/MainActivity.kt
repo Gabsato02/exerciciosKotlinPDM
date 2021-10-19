@@ -63,5 +63,10 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, Lista2Exercicio1e3::class.java)
             startActivity(intent)
         }
+
+        binding.btnList2Activity2.setOnClickListener {
+            val intent = Intent(this, Lista2Exercicio2::class.java)
+            startActivity(intent)
+        }
     }
 }
