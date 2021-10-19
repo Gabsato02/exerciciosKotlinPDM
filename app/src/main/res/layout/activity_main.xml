@@ -31,89 +31,89 @@
             <Button
                 android:id="@+id/btnList1Activity1"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="32dp"
                 android:layout_marginEnd="32dp"
                 android:layout_marginBottom="0dp"
-                android:text="Exercício 1" />
+                android:text="Exercício 1 - Formulário de contato" />
 
             <Button
                 android:id="@+id/btnList1Activity2"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="32dp"
                 android:layout_marginEnd="32dp"
                 android:layout_marginBottom="0dp"
-                android:text="Exercício 2" />
+                android:text="Exercício 2 -  Formulário de contato" />
 
             <Button
                 android:id="@+id/btnList1Activity3"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="32dp"
                 android:layout_marginEnd="32dp"
                 android:layout_marginBottom="0dp"
-                android:text="Exercício 3" />
+                android:text="Exercício 3 -  Formulário de contato com spinners" />
 
             <Button
                 android:id="@+id/btnList1Activity4"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="32dp"
                 android:layout_marginEnd="32dp"
                 android:layout_marginBottom="0dp"
-                android:text="Exercício 4" />
+                android:text="Exercício 4 - Spinners de música" />
 
             <Button
                 android:id="@+id/btnList1Activity5"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="32dp"
                 android:layout_marginEnd="32dp"
                 android:layout_marginBottom="0dp"
-                android:text="Exercício 5" />
+                android:text="Exercício 5 - Calculadora" />
 
             <Button
                 android:id="@+id/btnList1Activity6"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
                 android:layout_marginLeft="32dp"
                 android:layout_marginTop="32dp"
                 android:layout_marginRight="32dp"
-                android:text="Exercício 6" />
+                android:text="Exercício 6 - Galeria de imagens" />
 
             <Button
                 android:id="@+id/btnList1Activity7"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
                 android:layout_marginLeft="32dp"
                 android:layout_marginTop="32dp"
                 android:layout_marginRight="32dp"
-                android:text="Exercício 7" />
+                android:text="Exercício 7 - Concatenar valores com Extra" />
 
             <Button
                 android:id="@+id/btnList1Activity8"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
                 android:layout_marginLeft="32dp"
                 android:layout_marginTop="32dp"
                 android:layout_marginRight="32dp"
-                android:text="Exercício 8" />
+                android:text="Exercício 8 - URL intent" />
 
             <Button
                 android:id="@+id/btnList1Activity9"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
                 android:layout_marginLeft="32dp"
                 android:layout_marginTop="32dp"
                 android:layout_marginRight="32dp"
                 android:layout_marginBottom="32dp"
-                android:text="Exercício 9" />
+                android:text="Exercício 9 - Calculadora com Intent result" />
 
             <TextView
                 android:id="@+id/textView12"
@@ -131,11 +131,20 @@
             <Button
                 android:id="@+id/btnList2Activity1e3"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
                 android:layout_marginLeft="32dp"
                 android:layout_marginRight="32dp"
                 android:layout_marginBottom="32dp"
-                android:text="Exercícios 1 e 3" />
+                android:text="Exercícios 1 e 3 - Fragmentos de formulários" />
+
+            <Button
+                android:id="@+id/btnList2Activity2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="32dp"
+                android:layout_marginBottom="32dp"
+                android:text="Exercício 2 - Conversor de Temperaturas" />
 
         </LinearLayout>
     </ScrollView>

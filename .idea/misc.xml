@@ -19,8 +19,12 @@
         <entry key="..\:/Users/Acer/AndroidStudioProjects/exerciciosKotlinPDM/app/src/main/res/layout/activity_lista1_exercicio9.xml" value="0.25" />
         <entry key="..\:/Users/Acer/AndroidStudioProjects/exerciciosKotlinPDM/app/src/main/res/layout/activity_lista1_exercicio9_detalhe.xml" value="0.22" />
         <entry key="..\:/Users/Acer/AndroidStudioProjects/exerciciosKotlinPDM/app/src/main/res/layout/activity_lista2_exercicio1e3.xml" value="0.25" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/exerciciosKotlinPDM/app/src/main/res/layout/activity_lista2_exercicio2.xml" value="0.17" />
         <entry key="..\:/Users/Acer/AndroidStudioProjects/exerciciosKotlinPDM/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/exerciciosKotlinPDM/app/src/main/res/layout/fragment_celsius_to_fahrenheit.xml" value="0.25" />
         <entry key="..\:/Users/Acer/AndroidStudioProjects/exerciciosKotlinPDM/app/src/main/res/layout/fragment_cliente.xml" value="0.22698320787492762" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/exerciciosKotlinPDM/app/src/main/res/layout/fragment_fahrenheit_to_kelvin.xml" value="0.25" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/exerciciosKotlinPDM/app/src/main/res/layout/fragment_kelvin_to_celsius.xml" value="0.25" />
         <entry key="..\:/Users/Acer/AndroidStudioProjects/exerciciosKotlinPDM/app/src/main/res/layout/fragment_produto.xml" value="0.1503623188405797" />
       </map>
     </option>

@@ -1,6 +1,5 @@
-package br.senac.atividades
+package br.senac.atividades.framentos
 
-import android.R
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -16,7 +15,6 @@ class Cliente : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
         val binding = FragmentClienteBinding.inflate(inflater, container, false)
 
         binding.floatingActionButton.setOnClickListener {
