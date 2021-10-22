@@ -3,6 +3,8 @@ package br.senac.atividades
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import br.senac.atividades.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -68,5 +70,29 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, Lista2Exercicio2::class.java)
             startActivity(intent)
         }
+
+        binding.btnList2Activity4.setOnClickListener {
+            val intent = Intent(this, Lista2Exercicio4::class.java)
+            startActivity(intent)
+        }
+
+        binding.btnList2Activity5.setOnClickListener {
+            val intent = Intent(this, Lista2Exercicio5::class.java)
+            startActivity(intent)
+        }
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.toolbar_menu, menu)
+        return super.onCreateOptionsMenu(menu)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when(item.itemId) {
+            R.id.toolbarOpenTab -> startActivity(Intent(this, Lista2Exercicio2::class.java))
+            R.id.toolbarOpenBottom -> startActivity(Intent(this, Lista2Exercicio5::class.java))
+            else -> startActivity(Intent(this, Lista2Exercicio4::class.java))
+        }
+        return super.onOptionsItemSelected(item)
     }
 }

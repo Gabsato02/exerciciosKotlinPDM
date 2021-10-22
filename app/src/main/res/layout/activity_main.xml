@@ -144,7 +144,34 @@
                 android:layout_marginLeft="32dp"
                 android:layout_marginRight="32dp"
                 android:layout_marginBottom="32dp"
-                android:text="Exercício 2 - Conversor de Temperaturas" />
+                android:text="Exercício 2 - Tabs Temperaturas" />
+
+            <Button
+                android:id="@+id/btnList2Activity4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="32dp"
+                android:layout_marginBottom="32dp"
+                android:text="Exercício 4 - Navigation View Temperaturas" />
+
+            <Button
+                android:id="@+id/btnList2Activity5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="32dp"
+                android:layout_marginBottom="32dp"
+                android:text="Exercício 5 - Bottom Navigation Temperatura" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="32dp"
+                android:layout_marginBottom="32dp"
+                android:text="Exercício 6 - Abertura dos Fragmentos via barra de ferramentas (está na barra de ferramentas dessa Activity) " />
 
         </LinearLayout>
     </ScrollView>
